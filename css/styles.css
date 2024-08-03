@@ -93,6 +93,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
@@ -194,15 +195,15 @@ img {
 .header-address-link:focus {
   color: #404bbf;
 }
-.menu-open-btn {
+.heder-open-btn {
   background-color: transparent;
   border: none;
   padding: 0;
 }
 
 .heder-icon {
-  fill: transparent;
-  stroke: #000;
+  display: block;
+  fill: #2f2f37;
 }
 
 /* MOB-MENU */
